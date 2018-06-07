@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+    <test name="TestNG GitHub">
+        <classes>
+            <class name="com.epam.lab.GitHubTest"></class>
+        </classes>
+    </test>
+    <test name="TestNG Gmail">
+        <classes>
+            <class name="com.epam.lab.GmailTest"></class>
+        </classes>
+    </test>
+</suite>
